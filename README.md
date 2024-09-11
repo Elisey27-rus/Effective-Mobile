@@ -3,8 +3,8 @@
 ## Описание
 
 Этот проект включает два автоматических теста:
-1. **`test_api.py`** - Тест для работы с GitHub API, который выполняет создание, проверку и удаление репозитория.
-2. **`test_ui.py`** - E2E (end-to-end) тест для проверки сценария покупки товара на сайте [saucedemo.com](https://www.saucedemo.com) с использованием Playwright.
+1. **`test_git.py`** - Тест для работы с GitHub API, который выполняет создание, проверку и удаление репозитория.
+2. **`test_playwright.py`** - E2E (end-to-end) тест для проверки сценария покупки товара на сайте [saucedemo.com](https://www.saucedemo.com) с использованием Playwright.
 
 ## Установка
 
@@ -32,10 +32,10 @@
 
 Используйте команду:
 ```bash
-python test_api.py
+python test_git.py
 
 ### Запуск теста проверки playwright
 
 Используйте команду:
 ```bash
-python test_ui.py
+python test_playwright.py
