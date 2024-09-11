@@ -16,7 +16,6 @@
 2. Установите зависимости:
     ```bash
     pip install -r requirements.txt
-    playwright install
     ```
 
 3. Создайте файл `.env` в корне проекта и добавьте ваши данные:
@@ -28,14 +27,18 @@
 
 ## Запуск тестов
 
+
 ### Запуск теста GitHub API
 
 Используйте команду:
 ```bash
 python test_git.py
+```
+
 
 ### Запуск теста проверки playwright
 
 Используйте команду:
 ```bash
 python test_playwright.py
+```
