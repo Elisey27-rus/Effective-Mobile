@@ -2,7 +2,6 @@ import os
 import requests
 from dotenv import load_dotenv
 
-# Загрузка переменных окружения
 load_dotenv()
 
 USERNAME = os.getenv('GITHUB_USERNAME')

@@ -10,8 +10,7 @@
 
 1. Клонируйте репозиторий:
     ```bash
-    git clone <URL вашего репозитория>
-    cd my_test_project
+    git clone 'https://github.com/Elisey27-rus/Effective-Mobile'
     ```
 
 2. Установите зависимости:
@@ -34,3 +33,9 @@
 Используйте команду:
 ```bash
 python test_api.py
+
+### Запуск теста проверки playwright
+
+Используйте команду:
+```bash
+python test_ui.py
