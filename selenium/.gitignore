@@ -1,0 +1,61 @@
+# Системные файлы и папки, создаваемые IDE и редакторами
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Файлы окружения
+.env
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Логи и отладочные файлы
+*.log
+*.csv
+*.dat
+*.sqlite3
+
+# Папка отчетов Playwright (если используется)
+playwright-report/
+
+# Файлы и папки с тестовыми результатами
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Файлы зависимостей
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Общие временные файлы
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*~
+
+# Локальные файлы конфигурации
+.local/
