@@ -34,5 +34,3 @@
 Используйте команду:
 ```bash
 python test_api.py
-```
-
